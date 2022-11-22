@@ -5,7 +5,7 @@
 #########################################################################
 #########################################################################
 */
-/*
+
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
@@ -93,6 +93,7 @@ body {
   top: 15px;
   left: 0;
   pointer-events: none;
+  /* the pointer event represents the pointer symbol change according to the element */
 }
 
 .form-control label span {
@@ -100,6 +101,8 @@ body {
   font-size: 18px;
   min-width: 5px;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  // cubic-besier is a cool way of createing wavy animations for elements.
+  // check w3Schools for details...
 }
 
 .form-control input:focus + label span,
@@ -107,4 +110,3 @@ body {
   color: lightblue;
   transform: translateY(-30px);
 }
-*/
